@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAPER BANK</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h2 class="text-5xl text-center mt-16">welcome
+            <span class="font-semibold text-purple-600">to my baper bank!!!!!!!</span>
+        </h2>
+
+    </header>
+    <main>
+        <section class="bg-green-100 w-3/4 p-8 mx-auto mt-8">
+            <h3 class="text-3xl mb-4">please login</h3>
+            <div action="">
+                <input id="user-email" onchange="inputEmailFieldChange(event)"
+                    class="border-2  px-3 mb-4 border-gray-400 rounded block" type="text" placeholder="your email"
+                    id="">
+                <input id="user-password" onchange="inputPasswordFieldChange(event)"
+                    class="border-2  px-3 mb-4 border-gray-400 rounded block" type="password" name=""
+                    placeholder="your password" id="">
+
+                <button id="blog" class="bg-yellow-600 px-4 rounded  text-white font-midium border">submit</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/bank.js"></script>
+</body>
+
+</html>
